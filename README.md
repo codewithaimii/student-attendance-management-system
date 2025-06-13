@@ -22,9 +22,8 @@ This repository contains the SQL scripts and MySQL database design for efficient
 ### Course information
 
 - Course Name: Database Systems
-- Course Code: 15CS2007
 - Course Credits: 4
-- Academic Year: 2017
+- Academic Year: 2022
 
 ### Database information
 
