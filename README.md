@@ -1,66 +1,41 @@
-<h1> Student Attendance Management System Database </h1>
+🎓 Student Attendance Management System (Database)
+Project by codewithaimii
+📅 Developed in 2021
+💻 Language Used: C++
+🗃 Database: File Handling (Text-based)
 
-This repository consists of queries related to a relational database to maintain university student records, which have various tables storing different information affiliated with students.
+📌 Project Overview
+The Student Attendance Management System is a console-based C++ application designed to record and manage student attendance using file handling. It provides an efficient way to add, update, search, and display student attendance records in a classroom environment.
 
-<h2>Table of contents</h2>
+This project uses structured programming concepts, file I/O, and basic data handling techniques, making it a great practice for database simulation in C++.
 
-- [Introduction](#introduction)
-  - [Course information](#course-information)
-  - [Database information](#database-information)
-    - [Tables](#tables)
-- [Relational Databases](#relational-databases)
-- [Project status](#project-status)
-- [Installation](#installation)
-  - [Get repository](#get-repository)
-  - [Example to create DATABASE - SQL query](#example-to-create-database---sql-query)
-- [License](#license)
+💡 Features
+📝 Add new student attendance records
 
-## Introduction
+🔄 Update existing records
 
-This repository contains the SQL scripts and MySQL database design for efficiently managing student attendance. The project is designed to simplify attendance tracking for educational institutions. It offers a comprehensive database schema and SQL queries to handle various aspects of attendance management, including student registration, course enrollment, and attendance recording. The project focuses on simplicity, scalability, and reliability, aiming to provide a solid foundation for building attendance management systems customized to the needs of schools, colleges, and universities.
+🔍 Search attendance by roll number
 
-### Course information
+📃 Display all student attendance records
 
-- Course Name: Database Systems
-- Course Credits: 4
-- Academic Year: 2022
+💾 Store data in external text files for persistence
 
-### Database information
+🧑‍🏫 Teacher-friendly terminal interface
 
-#### Tables
+🧑‍💻 Key Concepts Used
+Structures to store student data
 
-1. attendence
-2. course
-3. professor
-4. room
-5. section
-6. student
-7. student_course
+File Handling (fstream) for reading and writing data
 
-## Relational Databases
+Loops and conditional logic
 
-- SQL
-- Database Management System: MySQL
+Menu-driven interface using switch-case
 
-## Project status
+Modular code using functions
 
-> **Completed**
-
-## Installation
-
-### Get repository
-
-```git
-git clone https://github.com/msaf9/student-attendance-management-system.git
-cd student-attendance-management-system
-```
-
-### Example to create DATABASE - SQL query
-
-```sql
-CREATE DATABASE `studentattendancemanagementsystem`;
-USE studentattendancemanagementsystem;
-```
-
-## License
-[MIT LICENSE](LICENSE)
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/codewithaimii/student-attendance-management.git
+cd student-attendance-management
+Compile the code:
+g++ attendance.cpp -o attendance
